@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To My One and Only</title>
+  <style>
+    body {
+      background-color: #fff0f6;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 2rem;
+      color: #333;
+      line-height: 1.8;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d63384;
+    }
+
+    .signature {
+      margin-top: 3rem;
+      text-align: right;
+      font-style: italic;
+      color: #6c757d;
+    }
+
+    .highlight {
+      color: #e83e8c;
+      font-weight: bold;
+    }
+
+    .heart {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      transition: transform 2s;
+      z-index: 1;
+      cursor: pointer;
+    }
+
+    .heart > img {
+      width: 50px;
+      height: auto;
+      animation-name: beat;
+      animation-duration: 1.2s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+    }
+
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      25% { transform: scale(1.1); }
+      50% { transform: scale(1.2); }
+      75% { transform: scale(1.1); }
+    }
+
+    .video-container {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    video {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>To My One and Only</h1>
+
+  <p>Hi Love,</p>
+  <p>In this fast-paced world, I just want you to pause — and feel this message coming straight from my heart.</p>
+  <p>You are the calm in my chaos, the smile in my quiet days, the warmth in my cold moments. Being with you, even through a screen, reminds me that love can be felt — deeply and genuinely.</p>
+  <p class="highlight">Thank you for being my peace, my joy, my everyday miracle.</p>
+  <p>Here’s a simple beat from my heart, just for you.</p>
+
+  <div class="heart">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Emoji_u2764.svg/1024px-Emoji_u2764.svg.png" alt="Heart" />
+  </div>
+
+  <div class="video-container">
+    <p>Watch this message with all the love I can give:</p>
+    <video controls>
+      <source src="love-message.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <p>You're not just my girlfriend — you're the greatest blessing God ever gave me. I’ll never stop showing you how much you mean to me.</p>
+
+  <p class="highlight">Forever yours, in every lifetime we meet.</p>
+
+  <p class="signature">With all my heart,<br>Your Seb</p>
+</body>
+</html>
